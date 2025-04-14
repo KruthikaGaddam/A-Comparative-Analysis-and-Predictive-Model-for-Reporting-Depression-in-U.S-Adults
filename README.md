@@ -25,11 +25,11 @@ Despite rising mental health awareness, depression remains underdiagnosed, espec
 
 ## 📊 Key Results
 
-1. 🔍 **Achieved 85% accuracy and 0.83 AUC** using XGBoost on provider-diagnosed depression data (NAMCS), successfully modeling clinical recognition patterns.
+🔍 **Achieved 85% accuracy and 0.83 AUC** using XGBoost on provider-diagnosed depression data (NAMCS), successfully modeling clinical recognition patterns.
 
-2. 🔍 **Identified critical risk indicators** (e.g., lack of chronic illness, insurance status, cancer history) by analyzing 40+ features, revealing disparities in depression diagnosis and access.
+🔍 **Identified critical risk indicators** (e.g., lack of chronic illness, insurance status, cancer history) by analyzing 40+ features, revealing disparities in depression diagnosis and access.
 
-3. 🔍 **Exposed inconsistencies in self-reporting**: Lower predictive performance on self-reported depression (NHANES) highlights the complexity of mental health disclosure, suggesting underreporting trends and the need for improved public health screening tools.
+🔍 **Exposed inconsistencies in self-reporting**: Lower predictive performance on self-reported depression (NHANES) highlights the complexity of mental health disclosure, suggesting underreporting trends and the need for improved public health screening tools.
 
 ## 🧰 Tools & Technologies
 
