@@ -40,7 +40,7 @@ Despite rising mental health awareness, depression remains underdiagnosed, espec
 
 ## 🧰 Tools & Technologies
 
-- **Languages**: Python (Jupyter, Colab)
+- **Languages**: Python (Jupyter, Colab), SQL, Advanced Excel
 - **Libraries**: pandas, NumPy, Seaborn, Matplotlib, SciPy, scikit-learn, imbalanced-learn, XGBoost
 - **Data Tools**: phpMyAdmin, MySQL, SAS7BDAT/XPORT conversion
 - **Collaboration**: Microsoft Teams, Canvas, Wrike
