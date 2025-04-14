@@ -12,8 +12,8 @@ Despite rising mental health awareness, depression remains underdiagnosed, espec
 ## 🧪 Methodology
 
 1. **Data Sources**:  
-   - `NHANES 2017-18`: National Health and Nutrition Examination Survey  
-   - `NAMCS 2017-18`: National Ambulatory Medical Care Survey  
+   - `NHANES 2018`: National Health and Nutrition Examination Survey  
+   - `NAMCS 2018`: National Ambulatory Medical Care Survey  
 2. **Preprocessing**:
    - Converted `.sas7bdat` and `.xpt` files to CSV
    - Feature engineering across 40+ variables: age, race, comorbidities, insurance, education, etc.
@@ -25,24 +25,17 @@ Despite rising mental health awareness, depression remains underdiagnosed, espec
 
 ## 📊 Key Results
 
-### ✳️ Model Performance (After SMOTE)
+1. 🔍 **Achieved 85% accuracy and 0.83 AUC** using XGBoost on provider-diagnosed depression data (NAMCS), successfully modeling clinical recognition patterns.
 
-| Dataset | Model          | Accuracy | F1 Score | AUC (ROC) | Top Features                            |
-|---------|----------------|----------|----------|-----------|------------------------------------------|
-| NHANES  | XGBoost        | 73.8%    | 0.36     | 0.65      | Private Insurance, Arthritis, Overweight |
-| NAMCS   | XGBoost        | 85%      | 0.53     | 0.83      | No Chronic Illness, Heart/Lung Issues, Cancer |
-| NHANES  | Random Forest  | 72.9%    | 0.35     | 0.68      | Overweight, Insurance, Arthritis         |
-| NAMCS   | Random Forest  | 84.5%    | 0.53     | 0.85      | Surgical Care, No Chronic Illness, Age   |
+2. 🔍 **Identified critical risk indicators** (e.g., lack of chronic illness, insurance status, cancer history) by analyzing 40+ features, revealing disparities in depression diagnosis and access.
 
-### ✅ Hypothesis Testing:
-- **Chi-square test** showed significant differences in reporting patterns based on age, insurance type, race, comorbidities, and provider specialty.
-- **Rejected Null Hypothesis**: Self-reported depression was *less frequently detected* compared to provider diagnoses, indicating underreporting.
+3. 🔍 **Exposed inconsistencies in self-reporting**: Lower predictive performance on self-reported depression (NHANES) highlights the complexity of mental health disclosure, suggesting underreporting trends and the need for improved public health screening tools.
 
 ## 🧰 Tools & Technologies
 
-- **Languages**: Python (Jupyter, Colab), SQL, Advanced Excel
+- **Languages**: Python (Jupyter, Colab)
 - **Libraries**: pandas, NumPy, Seaborn, Matplotlib, SciPy, scikit-learn, imbalanced-learn, XGBoost
-- **Data Tools**: phpMyAdmin, MySQL, SAS7BDAT/XPORT conversion
+- **Data Tools**: phpMyAdmin, MySQL, SAS7BDAT/XPORT conversion, Advanced Excel
 - **Collaboration**: Microsoft Teams, Canvas, Wrike
 
 ## 📈 Impact
